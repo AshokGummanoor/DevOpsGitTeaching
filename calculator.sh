@@ -1,6 +1,6 @@
+#Added calculator file
 read a
 read b
-read c
 
 echo "Enter Choice of Operation"
 echo "1. add"
@@ -9,7 +9,6 @@ echo "3. Multiply"
 echo "4. Divison"
 
 read choice
-echo "Cchoice has been entered"
 case $choice in
 	1) res= echo $a+$b | bc;;
 	2) res= echo $a-$b | bc;;
